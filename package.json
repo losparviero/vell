@@ -1,6 +1,6 @@
 {
   "name": "vellin",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Manage your secrets and use them everywhere!",
   "main": "lib/index.js",
   "type": "module",
@@ -24,6 +24,12 @@
     "url": "git+https://github.com/losparviero/vell.git"
   },
   "license": "AGPL-3.0",
+  "keywords": [
+    "secrets",
+    "secrets-manager",
+    "secret-manager",
+    "dotenv"
+  ],
   "dependencies": {
     "dotenv": "^16.3.1",
     "input": "^1.0.1",
