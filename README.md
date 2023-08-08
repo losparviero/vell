@@ -7,7 +7,7 @@ Manage your secrets and use them everywhere!
 1. Vercel deployable (WIP) and self hostable.
 2. Persistent and encrypted Redis for secret store.
 3. Fetch secrets with APIs (WIP).
-4. Assign secrets to projects (WIP).
+4. Assign secrets to projects.
 
 <br>
 
@@ -17,17 +17,12 @@ Manage your secrets and use them everywhere!
 npx vellin
 ```
 
-#### API
-
-WIP
-
 #### Node.js
 
 ```node
-const { Vell } = require("vellin");
-const vell = new Vell(process.env.VELL_ID)
-vell.populate(projectName).then(secrets => {
-    console.log(secrets)
+const { vell } = require("vellin");
+vell.set(name, secret);
+const secret = vell.get(name);
 }
 ```
 

@@ -1,17 +1,17 @@
 {
   "name": "vellin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Manage your secrets and use them everywhere!",
   "main": "lib/index.js",
   "type": "module",
   "bin": {
-    "vellin": "./lib/veil.js"
+    "vellin": "./lib/vell.js"
   },
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "start": "npm i && node lib/veil",
+    "start": "npm i && node lib/vell",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
