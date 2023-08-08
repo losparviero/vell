@@ -34,14 +34,6 @@ const secret = vell.get(name);
 npm i -g vellin
 ```
 
-#### Uninstall
-
-```node
-npm uninstall vellin
-```
-
-
-
 <br>
 
 ### License
