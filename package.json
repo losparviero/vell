@@ -1,6 +1,6 @@
 {
   "name": "vellin",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Manage your secrets and use them everywhere!",
   "main": "lib/index.js",
   "type": "module",
