@@ -20,10 +20,10 @@ npx vellin
 #### Node.js
 
 ```node
-const { vell } = require("vellin");
-vell.set(name, secret);
-const secret = vell.get(name);
-}
+import Vell from "vellin";
+const vell = new Vell();
+const secret = await vell.get("secretName");
+console.log(secret);
 ```
 
 <br>
