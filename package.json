@@ -1,6 +1,6 @@
 {
   "name": "vellin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Manage your secrets and use them everywhere!",
   "main": "lib/index.js",
   "type": "module",
@@ -18,6 +18,10 @@
     "name": "Zubin",
     "email": "me@zubin.org.in",
     "url": "https://zubin.org.in"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/losparviero/vell.git"
   },
   "license": "AGPL-3.0",
   "dependencies": {
