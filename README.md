@@ -6,7 +6,7 @@ Manage your secrets and use them everywhere! Replace your .env files.
 
 1. Vercel deployable (WIP) and self hostable.
 2. Persistent and encrypted Redis for secret store.
-3. Fetch secrets with APIs (WIP).
+3. Inject secrets with APIs (WIP).
 4. Assign secrets to projects.
 5. Ditch tedious .env setup.
 
@@ -60,15 +60,15 @@ const secret = await vell.get("secretName");
 console.log(secret);
 ```
 
-#### API
-
-Coming  soon.
-
 #### Install
 
 ```node
 npm i -g vellin
 ```
+
+#### API
+
+Coming  soon.
 
 ### License
 
