@@ -35,12 +35,21 @@ DB_URL - Upstash Redis database URL
 
 #### CLI
 
+1. To set or get a secret
+
 ```bash
 npx vellin
 ```
 
 Follow the prompts.
 
+2. To export a secret to .env
+
+```node
+npx vellin secretName
+```
+
+This will export secret to the .env in the working directory.
 #### Node.js
 
 1. Set a secret
