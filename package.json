@@ -1,7 +1,7 @@
 {
   "name": "vellin",
-  "version": "0.1.10",
-  "description": "Manage your secrets and use them everywhere!",
+  "version": "0.1.110",
+  "description": "Manage your secrets and use them everywhere! Replace your .env files.",
   "main": "lib/index.js",
   "type": "module",
   "bin": {
